@@ -6,8 +6,8 @@
 <script>
 
 $(document).ready(function(){
-			$("button").click(function(){
-				$.get("http://be.cercamister.it:9091/log/", function(data, status){
+			$("#primo").click(function(){
+				$.get("http://www.calciomister.it:9091/log/", function(data, status){
 					alert("Data: " + data + "\nStatus: " + status);
 				});
 			}); 
@@ -18,9 +18,15 @@ $(document).ready(function(){
 
 </head>
 <body>
+<form>
 
 
-<button>Pippo</button>
+<input type="text" name="nome" value="" ></input>
+
+<button id="primo">Pippo</button>
+</form>
+
+
 
 
 
