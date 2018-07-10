@@ -14,3 +14,11 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.style{
+	  position: absolute;top: 450px; right: 50px;
+	  }
+	  
+.h1 {
+  color:  white;
+}
